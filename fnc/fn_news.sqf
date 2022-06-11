@@ -13,6 +13,7 @@ TAG_fnc_Article ={
 ] call BIS_fnc_showAANArticle;
 };
 
+
 player createDiaryRecord ["diary", ["Новости", "
 <execute expression='[] call TAG_fnc_Article'>Самолёт</execute>
 "]];
