@@ -12,7 +12,7 @@ _role1names = [profileName];
 _role2 = localize "STR_WB_Project";
 _role2names = ["Created by rustamka"];
 _role3 = localize "STR_WB_Discord";
-_role3names = ["discord.gg/wHzuKUT5UG"];
+_role3names = ["discord.gg/DJzUHvjbyq"];
 _role4 = localize "STR_WB_GoodLuck";
 _role4names = [profileName];
 {
