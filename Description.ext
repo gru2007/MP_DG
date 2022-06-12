@@ -263,7 +263,7 @@ class CfgDiscordRichPresence {
     defaultDetails="The best milsim in Arma3 ever";	        // Upper text
     defaultState="";			                                // Lower text
     defaultLargeImageKey="warband";					                	// Large image
-    defaultLargeImageText="WarBand Milsim";   // Large image hover text
+    defaultLargeImageText="DG Milsim";   // Large image hover text
     defaultSmallImageKey="arma3";					              	// Small image
     defaultSmallImageText="Arma 3";				            		// Small image hover text
     useTimeElapsed=1;								                    	// Show time elapsed since the player connected (1 - true, 0 - false)
