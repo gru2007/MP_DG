@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1615.5483,21.25996,8950.2793};
-		dir[]={0.89530683,-0.43781161,-0.082356118};
-		up[]={0.43598539,0.89906222,-0.040104579};
-		aside[]={-0.091602065,8.9494279e-008,-0.99581569};
+		pos[]={16857.732,176.06636,14735.643};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -37334,7 +37334,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								description="NATO";
+								description="Еврей";
 								isPlayable=1;
 								class Inventory
 								{
@@ -37405,7 +37405,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="NATO";
+								description="Еврей";
 								isPlayable=1;
 								class Inventory
 								{
@@ -37476,7 +37476,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="NATO";
+								description="Еврей";
 								isPlayable=1;
 								class Inventory
 								{
@@ -37547,7 +37547,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="NATO";
+								description="Еврей";
 								isPlayable=1;
 								class Inventory
 								{
@@ -37619,7 +37619,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="NATO";
+								description="Еврей";
 								isPlayable=1;
 								class Inventory
 								{
@@ -37690,7 +37690,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="NATO";
+								description="Еврей";
 								isPlayable=1;
 								class Inventory
 								{
@@ -37761,7 +37761,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="NATO";
+								description="Еврей";
 								isPlayable=1;
 								class Inventory
 								{
@@ -37833,7 +37833,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="NATO";
+								description="Еврей";
 								isPlayable=1;
 								class Inventory
 								{
@@ -37905,7 +37905,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="NATO";
+								description="Еврей";
 								isPlayable=1;
 								class Inventory
 								{
@@ -37976,7 +37976,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="NATO";
+								description="Еврей";
 								isPlayable=1;
 								class Inventory
 								{
@@ -38047,7 +38047,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="NATO";
+								description="Еврей";
 								isPlayable=1;
 								class Inventory
 								{
@@ -38118,7 +38118,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="NATO";
+								description="Еврей";
 								isPlayable=1;
 								class Inventory
 								{
@@ -38189,7 +38189,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="NATO";
+								description="Еврей";
 								isPlayable=1;
 								class Inventory
 								{
@@ -38253,6 +38253,29 @@ class Mission
 					{
 					};
 					id=2375;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="groupID";
+							expression=" if (isNil 'CBA_fnc_setCallsign') then { _this setGroupID [_value]; } else { [_this, _value] call CBA_fnc_setCallsign; }; ";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Евреи";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
