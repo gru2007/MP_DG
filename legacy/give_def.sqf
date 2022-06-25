@@ -33,6 +33,7 @@ player addWeapon "212th_DC17";
 
 //патрончики
 //Не забывайте добавлять в initPlayerLocal.sqf (Может когда-то сделаю покрасивее :) )
+//Боже какой давности этот код... эххх было время. К слову без системы бесконечных патронов это не надо)
 player addMagazine "212th_35Rnd_DC15A_mag";
 player addMagazine "212th_35Rnd_DC17_mag";
 

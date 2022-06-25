@@ -54,7 +54,7 @@ if(_mode == "Все") then
 		if(count _cfgInfo > 0) then
 		{
 			if (_x in Hveh) then {
-				price = 1000;
+				price = 50000;
 			} else {
 				price = 300;
 			};

@@ -25,7 +25,7 @@ _position = [_pos select 0, _pos select 1, (_pos select 2) + 0.5];
 
 //Get price
 if (_className in Hveh) then {
-	price = 1000;
+	price = 50000;
 } else {
 	price = 300;
 };

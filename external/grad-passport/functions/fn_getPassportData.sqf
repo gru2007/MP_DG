@@ -21,9 +21,9 @@ if (_dateOfBirth == "") then {
 
 private _placeOfBirth = _passportOwner getVariable [QGVAR(placeOfBirth),""];
 if (_placeOfBirth == "") then {
-    _placeOfBirth =  switch (side _passportOwner) do {case west: { selectRandom ["New York", "Los Angeles", "Chicago", "Houston", "San Antonio", "San Diego", "Dallas", "San Francisco", "Seattle", "Boston", "Detroit", "Portland", "Las Vegas", "Baltimore", "Albuquerque", "Miami", "Minneapolis", "Orlando", "Birmingham"] };
+    _placeOfBirth =  switch (side _passportOwner) do {case west: { selectRandom ["Тель-авив"] };
 	case east: { selectRandom ["Москва", "Брянск", "Ногинск", "Мурманск", "Владивосток", "Астрахань", "Ростов на Дону"] };case resistance: { selectRandom ["Кабул", "Кандагар", "Герат", "Мазари-Шариф", "Кундуз", "Джелалабад", "Талукан", "Чарикар", "Лашкаргах", "Шибарган", "Газни"] };
-	case civilian: { selectRandom ["город1", "город2"] };default { "Unkown" }};
+	case civilian: { selectRandom ["Газа"] };default { "Unkown" }};
     _passportOwner setVariable [QGVAR(placeOfBirth),_placeOfBirth,true];
 };
 
@@ -49,7 +49,7 @@ if (_height == "") then {
 
 private _eyeColor = _passportOwner getVariable [QGVAR(eyeColor),""];
 if (_eyeColor == "") then {
-    _eyeColor = switch (playerSide) do {case west: { "USA" };case east: { "РФ" };case resistance: { "GUER" };case civilian: { "CIV" };default { "Unkown" }} ;
+    _eyeColor = switch (side _passportOwner) do {case west: { "Израиль" };case east: { "СССР" };case resistance: { "GUER" };case civilian: { "Палестина" };default { "Unkown" }} ;
     _passportOwner setVariable [QGVAR(eyeColor),_eyeColor,true];
 };
 

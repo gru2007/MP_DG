@@ -40,8 +40,7 @@ if (isNil "NATO_Money") then
 
 /******                            Vehile Lists                             ******/
 Hveh = [ //1000$
-	"rhs_tigr_m_msv",
-	"rhs_tigr_sts_msv"
+	"CUP_O_V3S_Open_TKA"
 ];
 
 /******                            Ranks                             ******/

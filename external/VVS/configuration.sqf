@@ -45,23 +45,7 @@ VVS_Air_Mercenary = [
 
 
 VVS_RF = [
-	"rhsgref_BRDM2_ATGM_msv",
-	"rhs_t90a_tv",
-	"rhs_gaz66_zu23_msv",
-	"rhs_kamaz5350_msv",
-	"rhs_kamaz5350_flatbed_cover_msv",
-	"RHS_Ural_Fuel_MSV_01",
-	"RHS_Ural_Ammo_MSV_01",
-	"RHS_Ural_Repair_MSV_01",
-	"rhs_tigr_m_msv",
-	"rhs_tigr_sts_msv",
-	"rhs_btr80_msv",
-	"rhs_btr80a_msv",
-	"rhs_bmp2_msv",
-	"rhsgref_BRDM2_HQ_msv",
-	"rhsgref_BRDM2_msv",
-	"rhs_gaz66_ammo_msv",
-	"RHS_UAZ_MSV_01"
+	"CUP_O_V3S_Open_TKA"
 	];
 VVS_RF_Air = [
 	"B_Heli_Light_01_armed_F",
