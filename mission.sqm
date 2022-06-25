@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=2520;
+		nextID=2585;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=138;
+		nextID=161;
 	};
 	class Camera
 	{
-		pos[]={1698.7491,28.305872,8948.8252};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={16860.447,165.03586,14748.957};
+		dir[]={-1.2363449e-007,-0.70710683,0.70710683};
+		up[]={-1.2363449e-007,0.70710671,0.70710683};
+		aside[]={1,0,1.7484557e-007};
 	};
 };
 binarizationWanted=0;
@@ -85,8 +85,6 @@ addons[]=
 	"CUP_CAStructures_E_HouseA_A_BuildingWIP",
 	"CUP_CABuildings_Misc",
 	"CUP_WheeledVehicles_V3S",
-	"A3_Characters_F",
-	"A3_Weapons_F",
 	"A3_Props_F_Enoch_Civilian_Camping",
 	"A3_Structures_F_EPB_Civ_Accessories",
 	"A3_Modules_F_Multiplayer",
@@ -94,9 +92,11 @@ addons[]=
 	"cba_xeh",
 	"A3_Structures_F_System",
 	"A3_Modules_F_Curator_Curator",
+	"A3_Characters_F",
 	"CUP_Creatures_Military_USArmy",
 	"cwr3_soldiers_ru",
 	"cwr3_civilians",
+	"A3_Weapons_F",
 	"A3_Structures_F_Mil_Helipads"
 };
 class AddonsMetaData
@@ -369,50 +369,50 @@ class AddonsMetaData
 		};
 		class Item44
 		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item45
-		{
-			className="A3_Weapons_F";
-			name="Arma 3 Alpha - Weapons and Accessories";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item46
-		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Contact Platform - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item47
+		class Item45
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item46
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item48
+		class Item47
 		{
 			className="CUP_Creatures_Military_USArmy";
 			name="CUP_Creatures_Military_USArmy";
 		};
-		class Item49
+		class Item48
 		{
 			className="cwr3_soldiers_ru";
 			name="cwr3_soldiers_ru";
 			author="CWR III Modification";
 			url="http://cwr3.arma2.fr";
 		};
-		class Item50
+		class Item49
 		{
 			className="cwr3_civilians";
 			name="cwr3_civilians";
 			author="CWR III Modification";
 			url="http : //cwr3.arma2.fr";
+		};
+		class Item50
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -37304,971 +37304,8 @@ class Mission
 			name="MAPBASE";
 			class Entities
 			{
-				items=11;
+				items=10;
 				class Item0
-				{
-					dataType="Group";
-					side="West";
-					class Entities
-					{
-						items=13;
-						class Item0
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={16860.248,150.97256,14759.052};
-								angles[]={0,3.19959,0};
-							};
-							side="West";
-							flags=7;
-							class Attributes
-							{
-								description="Еврей";
-								isPlayable=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="rhs_uniform_acu_ocp";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-								};
-							};
-							id=2376;
-							type="B_Survivor_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male12ENG";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item1
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={16857.732,151.06779,14760.692};
-								angles[]={0,3.19959,0};
-							};
-							side="West";
-							flags=5;
-							class Attributes
-							{
-								description="Еврей";
-								isPlayable=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="rhs_uniform_acu_ocp";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-								};
-							};
-							id=2377;
-							type="B_Survivor_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male12ENG";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item2
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={16858.762,151.06332,14760.604};
-								angles[]={0,3.19959,0};
-							};
-							side="West";
-							flags=5;
-							class Attributes
-							{
-								description="Еврей";
-								isPlayable=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="rhs_uniform_acu_ocp";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-								};
-							};
-							id=2378;
-							type="B_Survivor_F";
-							atlOffset=0.00012207031;
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male12ENG";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item3
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={16859.746,151.06213,14760.556};
-								angles[]={0,3.19959,0};
-							};
-							side="West";
-							flags=5;
-							class Attributes
-							{
-								description="Еврей";
-								isPlayable=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="rhs_uniform_acu_ocp";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-								};
-							};
-							id=2379;
-							type="B_Survivor_F";
-							atlOffset=1.5258789e-005;
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male12ENG";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item4
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={16860.744,151.08287,14760.481};
-								angles[]={0,3.19959,0};
-							};
-							side="West";
-							flags=5;
-							class Attributes
-							{
-								description="Еврей";
-								isPlayable=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="rhs_uniform_acu_ocp";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-								};
-							};
-							id=2380;
-							type="B_Survivor_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male12ENG";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item5
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={16857.793,151.17712,14761.743};
-								angles[]={0,3.19959,0};
-							};
-							side="West";
-							flags=5;
-							class Attributes
-							{
-								description="Еврей";
-								isPlayable=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="rhs_uniform_acu_ocp";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-								};
-							};
-							id=2381;
-							type="B_Survivor_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male12ENG";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item6
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={16858.822,151.17169,14761.655};
-								angles[]={0,3.19959,0};
-							};
-							side="West";
-							flags=5;
-							class Attributes
-							{
-								description="Еврей";
-								isPlayable=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="rhs_uniform_acu_ocp";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-								};
-							};
-							id=2382;
-							type="B_Survivor_F";
-							atlOffset=1.5258789e-005;
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male12ENG";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item7
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={16859.807,151.16895,14761.606};
-								angles[]={0,3.19959,0};
-							};
-							side="West";
-							flags=5;
-							class Attributes
-							{
-								description="Еврей";
-								isPlayable=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="rhs_uniform_acu_ocp";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-								};
-							};
-							id=2383;
-							type="B_Survivor_F";
-							atlOffset=1.5258789e-005;
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male12ENG";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item8
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={16860.805,151.19189,14761.532};
-								angles[]={0,3.19959,0};
-							};
-							side="West";
-							flags=5;
-							class Attributes
-							{
-								description="Еврей";
-								isPlayable=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="rhs_uniform_acu_ocp";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-								};
-							};
-							id=2384;
-							type="B_Survivor_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male12ENG";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item9
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={16861.777,151.11998,14760.468};
-								angles[]={0,3.19959,0};
-							};
-							side="West";
-							flags=5;
-							class Attributes
-							{
-								description="Еврей";
-								isPlayable=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="rhs_uniform_acu_ocp";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-								};
-							};
-							id=2411;
-							type="B_Survivor_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male12ENG";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item10
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={16862.775,151.14963,14760.394};
-								angles[]={0,3.19959,0};
-							};
-							side="West";
-							flags=5;
-							class Attributes
-							{
-								description="Еврей";
-								isPlayable=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="rhs_uniform_acu_ocp";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-								};
-							};
-							id=2412;
-							type="B_Survivor_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male12ENG";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item11
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={16861.838,151.22894,14761.519};
-								angles[]={0,3.19959,0};
-							};
-							side="West";
-							flags=5;
-							class Attributes
-							{
-								description="Еврей";
-								isPlayable=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="rhs_uniform_acu_ocp";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-								};
-							};
-							id=2413;
-							type="B_Survivor_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male12ENG";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item12
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={16862.836,151.25865,14761.444};
-								angles[]={0,3.19959,0};
-							};
-							side="West";
-							flags=5;
-							class Attributes
-							{
-								description="Еврей";
-								isPlayable=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="rhs_uniform_acu_ocp";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-								};
-							};
-							id=2414;
-							type="B_Survivor_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male12ENG";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-					};
-					class Attributes
-					{
-					};
-					id=2375;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="groupID";
-							expression=" if (isNil 'CBA_fnc_setCallsign') then { _this setGroupID [_value]; } else { [_this, _value] call CBA_fnc_setCallsign; }; ";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Евреи";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
@@ -38285,7 +37322,7 @@ class Mission
 					type="Computer";
 					atlOffset=0.96907187;
 				};
-				class Item2
+				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
@@ -38302,7 +37339,7 @@ class Mission
 					type="Land_WoodenTable_02_large_F";
 					atlOffset=-0.00040984154;
 				};
-				class Item3
+				class Item2
 				{
 					dataType="Layer";
 					name="Teleports";
@@ -38331,7 +37368,7 @@ class Mission
 					};
 					id=2457;
 				};
-				class Item4
+				class Item3
 				{
 					dataType="Logic";
 					class PositionInfo
@@ -38442,7 +37479,7 @@ class Mission
 						nAttributes=5;
 					};
 				};
-				class Item5
+				class Item4
 				{
 					dataType="Layer";
 					name="ChillZone";
@@ -38657,7 +37694,7 @@ class Mission
 					id=2425;
 					atlOffset=0.14479828;
 				};
-				class Item6
+				class Item5
 				{
 					dataType="Layer";
 					name="Settings";
@@ -38821,7 +37858,7 @@ class Mission
 					id=2437;
 					atlOffset=64.017174;
 				};
-				class Item7
+				class Item6
 				{
 					dataType="Layer";
 					name="VVS";
@@ -39126,40 +38163,7 @@ class Mission
 					id=2444;
 					atlOffset=0.76184964;
 				};
-				class Item8
-				{
-					dataType="Group";
-					side="East";
-					class Attributes
-					{
-					};
-					id=2324;
-					atlOffset=37.633904;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="groupID";
-							expression=" if (isNil 'CBA_fnc_setCallsign') then { _this setGroupID [_value]; } else { [_this, _value] call CBA_fnc_setCallsign; }; ";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="СССР";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item9
+				class Item7
 				{
 					dataType="Logic";
 					class PositionInfo
@@ -39269,13 +38273,13 @@ class Mission
 						nAttributes=5;
 					};
 				};
-				class Item10
+				class Item8
 				{
 					dataType="Group";
 					side="East";
 					class Entities
 					{
-						items=50;
+						items=100;
 						class Item0
 						{
 							dataType="Object";
@@ -40749,16 +39753,2452 @@ class Mission
 							type="O_Survivor_F";
 							atlOffset=4.7683716e-007;
 						};
+						class Item50
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.0536,3.3093255,8973.6113};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2521;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item51
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.1029,3.3067882,8972.8623};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2522;
+							type="O_Survivor_F";
+						};
+						class Item52
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.1423,3.303447,8971.876};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2523;
+							type="O_Survivor_F";
+						};
+						class Item53
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.0789,3.3003769,8970.9697};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2524;
+							type="O_Survivor_F";
+						};
+						class Item54
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.1,3.2971601,8969.96};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2525;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item55
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.1803,3.2961102,8969.0303};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2526;
+							type="O_Survivor_F";
+						};
+						class Item56
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.1366,3.2950549,8968.0957};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2527;
+							type="O_Survivor_F";
+						};
+						class Item57
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.2053,3.2940998,8967.25};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2528;
+							type="O_Survivor_F";
+						};
+						class Item58
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.1788,3.2930486,8966.3184};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2529;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item59
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.207,3.2918591,8965.2656};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2530;
+							type="O_Survivor_F";
+						};
+						class Item60
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.8771,3.3093855,8973.6289};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2531;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item61
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.928,3.306844,8972.8789};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2532;
+							type="O_Survivor_F";
+						};
+						class Item62
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.9648,3.3035028,8971.8926};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2533;
+							type="O_Survivor_F";
+						};
+						class Item63
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.9048,3.300427,8970.9844};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2534;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item64
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.9235,3.2971802,8969.9775};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2535;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item65
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1695.0062,3.2961257,8969.0439};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2536;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item66
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1694.9591,3.2950726,8968.1113};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2537;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item67
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1695.0304,3.2941198,8967.2676};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2538;
+							type="O_Survivor_F";
+						};
+						class Item68
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1695.0039,3.2930667,8966.335};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2539;
+							type="O_Survivor_F";
+						};
+						class Item69
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1695.0305,3.2918804,8965.2842};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2540;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item70
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1695.6501,3.3094678,8973.6533};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2541;
+							type="O_Survivor_F";
+						};
+						class Item71
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1695.7002,3.306921,8972.9014};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2542;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item72
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1695.739,3.3035939,8971.9189};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2543;
+							type="O_Survivor_F";
+						};
+						class Item73
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1695.6771,3.3005195,8971.0117};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2544;
+							type="O_Survivor_F";
+						};
+						class Item74
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1695.6975,3.2972093,8970.0039};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2545;
+							type="O_Survivor_F";
+						};
+						class Item75
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1695.7776,3.2961547,8969.0693};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2546;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item76
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1695.7327,3.2951012,8968.1367};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2547;
+							type="O_Survivor_F";
+						};
+						class Item77
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1695.8036,3.2941473,8967.292};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2548;
+							type="O_Survivor_F";
+						};
+						class Item78
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1695.7754,3.2930954,8966.3604};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2549;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item79
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1695.8063,3.2919075,8965.3086};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2550;
+							type="O_Survivor_F";
+						};
+						class Item80
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1696.3324,3.3095608,8973.6807};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2551;
+							type="O_Survivor_F";
+						};
+						class Item81
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1696.3822,3.307024,8972.9316};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2552;
+							type="O_Survivor_F";
+						};
+						class Item82
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1696.4222,3.3036895,8971.9473};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2553;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item83
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1696.3604,3.300617,8971.04};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2554;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item84
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1696.3802,3.297241,8970.0322};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2555;
+							type="O_Survivor_F";
+						};
+						class Item85
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1696.4591,3.2961872,8969.0986};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2556;
+							type="O_Survivor_F";
+						};
+						class Item86
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1696.4159,3.2951329,8968.165};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2557;
+							type="O_Survivor_F";
+						};
+						class Item87
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1696.4834,3.2941816,8967.3223};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2558;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item88
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1696.4586,3.2931285,8966.3896};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2559;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item89
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1696.4856,3.2919419,8965.3389};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2560;
+							type="O_Survivor_F";
+						};
+						class Item90
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1696.9685,3.3090534,8973.7559};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2561;
+							type="O_Survivor_F";
+						};
+						class Item91
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1697.019,3.3072724,8973.0049};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2562;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item92
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1697.0588,3.3039501,8972.0244};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2563;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item93
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1696.9934,3.3008668,8971.1143};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2564;
+							type="O_Survivor_F";
+						};
+						class Item94
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1697.0154,3.2974536,8970.1064};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2565;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item95
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1697.0947,3.2962725,8969.1738};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2566;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item96
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1697.051,3.2952168,8968.2393};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2567;
+							type="O_Survivor_F";
+						};
+						class Item97
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1697.1217,3.2942677,8967.3984};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2568;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item98
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1697.0942,3.2932138,8966.4648};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2569;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
+						class Item99
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1697.1234,3.2920272,8965.4141};
+								angles[]={0,6.2652082,0};
+							};
+							side="East";
+							flags=5;
+							class Attributes
+							{
+								description="СССР";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="LOP_U_UVF_Fatigue_BL_OSW";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2570;
+							type="O_Survivor_F";
+							atlOffset=4.7683716e-007;
+						};
 					};
 					class Attributes
 					{
 					};
 					id=2469;
 					atlOffset=4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="groupID";
+							expression=" if (isNil 'CBA_fnc_setCallsign') then { _this setGroupID [_value]; } else { [_this, _value] call CBA_fnc_setCallsign; }; ";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="СССР";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item9
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=13;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16858.387,150.93236,14758.641};
+								angles[]={0,3.19959,0};
+							};
+							side="West";
+							flags=7;
+							class Attributes
+							{
+								description="Еврей";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="rhs_uniform_acu_ocp";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2572;
+							type="B_Survivor_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male12ENG";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16855.871,151.01666,14760.281};
+								angles[]={0,3.19959,0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Еврей";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="rhs_uniform_acu_ocp";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2573;
+							type="B_Survivor_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male12ENG";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16856.9,151.01218,14760.192};
+								angles[]={0,3.19959,0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Еврей";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="rhs_uniform_acu_ocp";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2574;
+							type="B_Survivor_F";
+							atlOffset=0.00012207031;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male12ENG";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16857.885,151.01157,14760.145};
+								angles[]={0,3.19959,0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Еврей";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="rhs_uniform_acu_ocp";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2575;
+							type="B_Survivor_F";
+							atlOffset=1.5258789e-005;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male12ENG";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16858.883,151.00832,14760.07};
+								angles[]={0,3.19959,0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Еврей";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="rhs_uniform_acu_ocp";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2576;
+							type="B_Survivor_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male12ENG";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16855.932,151.12611,14761.332};
+								angles[]={0,3.19959,0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Еврей";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="rhs_uniform_acu_ocp";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2577;
+							type="B_Survivor_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male12ENG";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16856.961,151.12166,14761.244};
+								angles[]={0,3.19959,0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Еврей";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="rhs_uniform_acu_ocp";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2578;
+							type="B_Survivor_F";
+							atlOffset=1.5258789e-005;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male12ENG";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16857.945,151.12102,14761.195};
+								angles[]={0,3.19959,0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Еврей";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="rhs_uniform_acu_ocp";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2579;
+							type="B_Survivor_F";
+							atlOffset=1.5258789e-005;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male12ENG";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16858.943,151.11775,14761.121};
+								angles[]={0,3.19959,0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Еврей";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="rhs_uniform_acu_ocp";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2580;
+							type="B_Survivor_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male12ENG";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16859.916,151.0116,14760.057};
+								angles[]={0,3.19959,0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Еврей";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="rhs_uniform_acu_ocp";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2581;
+							type="B_Survivor_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male12ENG";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16860.914,151.04263,14759.982};
+								angles[]={0,3.19959,0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Еврей";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="rhs_uniform_acu_ocp";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2582;
+							type="B_Survivor_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male12ENG";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16859.977,151.11871,14761.107};
+								angles[]={0,3.19959,0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Еврей";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="rhs_uniform_acu_ocp";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2583;
+							type="B_Survivor_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male12ENG";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16860.975,151.14754,14761.033};
+								angles[]={0,3.19959,0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Еврей";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="rhs_uniform_acu_ocp";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+								};
+							};
+							id=2584;
+							type="B_Survivor_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male12ENG";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+					};
+					class Attributes
+					{
+					};
+					id=2571;
 				};
 			};
 			id=2461;
-			atlOffset=-2.1871109;
+			atlOffset=62.334484;
 		};
 		class Item5
 		{
