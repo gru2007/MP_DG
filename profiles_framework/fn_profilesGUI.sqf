@@ -23,7 +23,7 @@ if (isNil "_headerOverride") then {
     "<t size='1' color='#09F009'>Приветствуем тебя, боец!</t><br/>" +
     "<t size='1.2'>Поскольку ты в первый раз зашел на наш сервер, " +
     "убедись, что ты ознакомился с правилами и уставом! <t size='0.8'>[ ссылки кликабельны ]</t><br/>" +
-    "<a size='2.9' href='https://discord.gg/wHzuKUT5UG'><img image='pic\dis.paa'/></a><br/>" +
+    "<a size='2.9' href='https://discord.gg/DJzUHvjbyq'><img image='pic\dis.paa'/></a><br/>" +
     "<a size='1.8' href='https://docs.google.com/document/d/16r7T-iu-q0XcEom3wJscB209_QQhxK3hwyK5Tzgbero/edit'>" +
     "<img image='pic\doc.paa'/><t colorLink='#0788ff' color='#0788ff'> Устав</t></a><br/>" +
     "После этого выбери роль из списка ниже.",
@@ -32,7 +32,7 @@ if (isNil "_headerOverride") then {
     "<t size='1' color='#09F009'>Greetings to you, soldier!</t><br/>" +
     "<t size='1.2'>Since this is the first time you have logged into our server, " +
     "make sure, that you are familiar with the rules! <t size='0.8'>[ links are clickable ]</t><br/>" +
-    "<a size='2.9' href='https://discord.gg/wHzuKUT5UG'><img image='pic\dis.paa'/></a><br/>" +
+    "<a size='2.9' href='https://discord.gg/DJzUHvjbyq'><img image='pic\dis.paa'/></a><br/>" +
     "<a size='1.8' href='https://docs.google.com/document/d/16r7T-iu-q0XcEom3wJscB209_QQhxK3hwyK5Tzgbero/edit'>" +
     "<img image='pic\doc.paa'/><t colorLink='#0788ff' color='#0788ff'> Rules</t></a><br/>" +
     "After that choose role in list below.",
@@ -81,9 +81,9 @@ private _title = _display ctrlCreate ["RscStructuredText", -1];
 _title ctrlSetPosition [_startX,_startY,_width,_headerH];
 _title ctrlSetBackgroundColor [151/255,42/255,245/255,1];
 if(GameLanguage=="Russian") then {
-_title ctrlSetStructuredText parseText ("<t align='center'><t shadow='1' size='2.3' color='#ffffff'>Warband Milsim</t><br/>" +
+_title ctrlSetStructuredText parseText ("<t align='center'><t shadow='1' size='2.3' color='#ffffff'>DG Milsim</t><br/>" +
     _synopsis + "<br/><t size='0.6'>Двойной клик по пункту в списке, что бы выбрать его</t>");} else {
-_title ctrlSetStructuredText parseText ("<t align='center'><t shadow='1' size='2.3' color='#ffffff'>Warband Milsim</t><br/>" +
+_title ctrlSetStructuredText parseText ("<t align='center'><t shadow='1' size='2.3' color='#ffffff'>DG Milsim</t><br/>" +
     _synopsis + "<br/><t size='0.6'>Double-click on an item in the list to select it</t></t>");};
 _title ctrlCommit 0;
 
