@@ -38,6 +38,7 @@ class CfgFunctions {
       class getSideMoney { };
       class news { };
       class RusPCInit { };
+      class thirdperson { };
     };
     class Database {
       file = "database_framework";
