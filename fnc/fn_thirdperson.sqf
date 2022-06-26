@@ -11,7 +11,7 @@
 
 if (isDedicated) exitWith {};
 
-thirdperson_allowed = false;
+thirdperson_allowed = true;
 
 While {true} do {
 
