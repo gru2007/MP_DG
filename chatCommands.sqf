@@ -91,7 +91,7 @@ private _fn_getRange = {
 
     systemChat _input;
     private _ia = _input splitString " .,";
-    if (count _ia == 0) exitWith { systemChat "Possible: #roles add, #roles rm" };
+    if (count _ia == 0) exitWith { systemChat "Команды: #roles add, #roles rm" };
 
     if not (assert !isNil "ZPR_roles") then {
       systemChat "Похоже, что у вас сломались скрипты. Есле перезаход не поможет, обратитесь к техадмину";
@@ -112,8 +112,8 @@ private _fn_getRange = {
             } else {
               hint parseText "<t color='#ff3030'>Can't save!</t>";
             };
-          },{},["Выбери роль, которую добавить / Choose role to add",0.17,0.25],
-          "Role [ %1 ]",
+          },{},["Выбери роль, которую добавить",0.17,0.25],
+          "Роль [ %1 ]",
           call ZONT_fnc_getRoles
         ] spawn ZONT_fnc_profilesGUI;
       };
@@ -136,8 +136,8 @@ private _fn_getRange = {
             } else {
               hint parseText "<t color='#ff3030'>Can't save!</t>";
             };
-          },{},["Выбери роль, которую удалить / Choose a role to delete",0.17,0.25],
-          "Delete role [ %1 ]",
+          },{},["Выбери роль, которую удалить",0.17,0.25],
+          "Удалить роль [ %1 ]",
           _roles
         ] spawn ZONT_fnc_profilesGUI;
       };
