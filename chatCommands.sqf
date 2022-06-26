@@ -61,7 +61,7 @@ private _fn_getRange = {
     params ["_target", "_caller", "_inpt", "_args", "_res"];
     systemChat format ["** %1 %2 | %3 **", name _caller, _inpt, _res];
   },
-  { selectRandom ["Успешно (Successfully)", "Неудачно (Unsuccessful)"] }]
+  { selectRandom ["Успешно", "Неудачно"] }]
 ] call ZONT_fnc_addChatCommand;
 
 [ "roll",

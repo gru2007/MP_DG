@@ -39,3 +39,6 @@ sleep (_onScreenTime);
 [_role3, _role3names],
 [_role4, _role4names]
 ];
+
+systemChat "Не забывайте, есть команды #me #it #try #roll";
+systemChat "Список можно найти в дневнике Arma3";

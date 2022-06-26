@@ -17,3 +17,11 @@ TAG_fnc_Article ={
 player createDiaryRecord ["diary", ["Новости", "
 <execute expression='[] call TAG_fnc_Article'>Самолёт</execute>
 "]];
+player createDiaryRecord ["diary", ["Список команд", "
+#me <действие> - ** Василий упал **<br />
+#it <действие> - ** упал **<br />
+#try <действие> - ** Василий упал | Неудачно **<br />
+#roll <от> <до> (необяз) - ** [1-100] Удача блогосклонна к Василий на 5 **<br />
+#roles - Управление ролями<br />
+#money - Деньги стороны
+"]];
