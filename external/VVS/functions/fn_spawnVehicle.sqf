@@ -37,15 +37,15 @@ if(playerSide==east) then {
 	money = NATO_Money;
 };
 
-//Check
-if(price > money) exitWith{
-	hint localize "STR_WB_nomoney";
-	closeDialog 0;
-};
-
 //Has player rights?
 if(!(2 in ZPR_roles)) exitWith{
 	hint localize "STR_WB_norights";
+	closeDialog 0;
+};
+
+//Check
+if(price > money) exitWith{
+	hint localize "STR_WB_nomoney";
 	closeDialog 0;
 };
 
