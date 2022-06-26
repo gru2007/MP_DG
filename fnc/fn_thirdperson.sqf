@@ -18,8 +18,8 @@ While {true} do {
 	waitUntil {cameraView == "EXTERNAL"};
 
 	if (thirdperson_allowed) then {
-		waitUntil {cameraView == "internal" || thirdperson_allowed = false};
+		waitUntil {(cameraView == "internal") || (thirdperson_allowed == false)};
 	} else {
 		player switchCamera "internal";
-	}
+	};
 };

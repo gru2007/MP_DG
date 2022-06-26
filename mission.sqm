@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=2589;
+		nextID=2590;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=205;
+		nextID=226;
 	};
 	class Camera
 	{
-		pos[]={1525.0765,10.864326,8943.7129};
-		dir[]={0.69475061,-0.27988809,0.66272628};
-		up[]={0.20257242,0.95999807,0.19323251};
-		aside[]={0.69030499,2.8542127e-007,-0.72366202};
+		pos[]={1630.151,176.35576,8717.9092};
+		dir[]={0.033396509,-0.58057666,0.81352037};
+		up[]={0.023813682,0.81420559,0.58008802};
+		aside[]={0.99915838,-1.8626451e-009,-0.041017294};
 	};
 };
 binarizationWanted=0;
@@ -22803,7 +22803,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=5;
+		items=6;
 		class Item0
 		{
 			dataType="Layer";
@@ -28804,7 +28804,7 @@ class Mission
 					};
 					id=2042;
 					type="AmmoCrates_NoInteractive_Medium";
-					atlOffset=0.00012302399;
+					atlOffset=0.00012326241;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -35283,7 +35283,7 @@ class Mission
 					};
 					id=2047;
 					type="cwr3_metal_cabinet";
-					atlOffset=0.00077652931;
+					atlOffset=0.00077629089;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -35763,7 +35763,7 @@ class Mission
 					};
 					id=2048;
 					type="cwr3_metal_cabinet";
-					atlOffset=0.0004222393;
+					atlOffset=0.00042200089;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -36863,7 +36863,7 @@ class Mission
 				};
 			};
 			id=2182;
-			atlOffset=1.3063953;
+			atlOffset=2.6069663;
 		};
 		class Item3
 		{
@@ -37228,7 +37228,7 @@ class Mission
 				};
 			};
 			id=2183;
-			atlOffset=0.0090353489;
+			atlOffset=0.00720644;
 		};
 		class Item4
 		{
@@ -41748,6 +41748,26 @@ class Mission
 			};
 			id=2461;
 			atlOffset=60.645905;
+		};
+		class Item5
+		{
+			dataType="Trigger";
+			position[]={1597.392,3.8911226,8934.8574};
+			class Attributes
+			{
+				text="3 лицо на базе";
+				onActivation="thirdperson_allowed = true;";
+				onDeactivation="thirdperson_allowed = false;";
+				sizeA=172.955;
+				sizeB=92.975998;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+				triggerInterval=1;
+			};
+			id=2589;
+			type="EmptyDetector";
+			atlOffset=0.44700003;
 		};
 	};
 };
