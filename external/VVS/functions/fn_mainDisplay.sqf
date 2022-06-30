@@ -59,7 +59,7 @@ if(_mode == "Все") then
 				price = 300;
 			};
 			
-			_sideName = format ["%1$", price];
+			_sideName = format ["%1 оч.", price];
 			_control lnbAddRow["",_cfgInfo select 3,_sideName,_cfgInfo select 4];
 			_control lnbSetPicture[[_row,0],_cfgInfo select 2];
 			_control lnbSetData[[_row,0],_x]; //Set the classname to index/column 0

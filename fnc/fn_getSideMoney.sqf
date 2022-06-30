@@ -4,4 +4,4 @@ if(playerSide==east) then {
 	money = NATO_Money;
 };
 
-[format["Текущий баланс стороны %1$",money]] spawn BIS_fnc_guiMessage;
+[format["Текущий баланс стороны %1 оч.",money]] spawn BIS_fnc_guiMessage;
