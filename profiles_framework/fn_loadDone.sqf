@@ -9,7 +9,7 @@ if (not isNil "_pos") then {
   if (typeName [] == typeName _pos and {count _pos == 3}) then {
     private _tp = ["Телепортироваться на последнее сохранённое место? Нужно, если у вас вылетела игра или т.п.", "DG Milsim", "Да", "Нет"]
         call BIS_fnc_guiMessage;
-    if (_tp) then { sleep 3; player setPosATL _pos; };
+    if (_tp) then { sleep 1; player setPosATL _pos; };
   };
 };
 } else {
@@ -17,7 +17,7 @@ if (not isNil "_pos") then {
   if (typeName [] == typeName _pos and {count _pos == 3}) then {
     private _tp = ["Teleport to last saved place?", "DG Milsim", "Yes", "No"]
         call BIS_fnc_guiMessage;
-    if (_tp) then { sleep 3; player setPosATL _pos; };
+    if (_tp) then { sleep 1; player setPosATL _pos; };
   };
   };
 };
