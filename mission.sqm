@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=268;
+		nextID=289;
 	};
 	class Camera
 	{
 		pos[]={1526.2485,12.149756,8953.3516};
-		dir[]={0.69302815,-0.45973149,-0.55544382};
-		up[]={0.35875103,0.8880477,-0.28752896};
-		aside[]={-0.62544882,2.0570587e-007,-0.78037858};
+		dir[]={0.99033087,-0.12484136,0.061810017};
+		up[]={0.12465619,0.99217159,0.0077807731};
+		aside[]={0.062300917,1.3501849e-006,-0.99814743};
 	};
 };
 binarizationWanted=0;
@@ -28804,7 +28804,7 @@ class Mission
 					};
 					id=2042;
 					type="AmmoCrates_NoInteractive_Medium";
-					atlOffset=0.00012302399;
+					atlOffset=0.00012326241;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -35297,7 +35297,7 @@ class Mission
 					};
 					id=2047;
 					type="cwr3_metal_cabinet";
-					atlOffset=0.00077652931;
+					atlOffset=0.00077629089;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -41147,7 +41147,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								description="Еврей";
+								description="ГеймМастер";
 								isPlayable=1;
 								class Inventory
 								{
@@ -41218,7 +41218,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Еврей";
+								description="ГеймМастер";
 								isPlayable=1;
 								class Inventory
 								{
@@ -41289,7 +41289,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Еврей";
+								description="ГеймМастер";
 								isPlayable=1;
 								class Inventory
 								{
@@ -41361,7 +41361,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Еврей";
+								description="ГеймМастер";
 								isPlayable=1;
 								class Inventory
 								{
@@ -41433,7 +41433,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Еврей";
+								description="ГеймМастер";
 								isPlayable=1;
 								class Inventory
 								{
@@ -41504,7 +41504,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Еврей";
+								description="ГеймМастер";
 								isPlayable=1;
 								class Inventory
 								{
@@ -41575,7 +41575,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Еврей";
+								description="ГеймМастер";
 								isPlayable=1;
 								class Inventory
 								{
@@ -41647,7 +41647,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Еврей";
+								description="ГеймМастер";
 								isPlayable=1;
 								class Inventory
 								{
@@ -41719,7 +41719,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Еврей";
+								description="ГеймМастер";
 								isPlayable=1;
 								class Inventory
 								{
@@ -41790,7 +41790,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Еврей";
+								description="ГеймМастер";
 								isPlayable=1;
 								class Inventory
 								{
@@ -41861,7 +41861,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Еврей";
+								description="ГеймМастер";
 								isPlayable=1;
 								class Inventory
 								{
@@ -41932,7 +41932,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Еврей";
+								description="ГеймМастер";
 								isPlayable=1;
 								class Inventory
 								{
@@ -42003,7 +42003,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								description="Еврей";
+								description="ГеймМастер";
 								isPlayable=1;
 								class Inventory
 								{
@@ -42067,6 +42067,29 @@ class Mission
 					{
 					};
 					id=2571;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="groupID";
+							expression=" if (isNil 'CBA_fnc_setCallsign') then { _this setGroupID [_value]; } else { [_this, _value] call CBA_fnc_setCallsign; }; ";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="ГМы";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			id=2461;

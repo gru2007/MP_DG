@@ -49,7 +49,7 @@ if (_height == "") then {
 
 private _eyeColor = _passportOwner getVariable [QGVAR(eyeColor),""];
 if (_eyeColor == "") then {
-    _eyeColor = switch (side _passportOwner) do {case west: { "Израиль" };case east: { "СССР" };case resistance: { "GUER" };case civilian: { "Палестина" };default { "Unkown" }} ;
+    _eyeColor = switch (playerSide) do {case west: { "Израиль" };case east: { "СССР" };case resistance: { "GUER" };case civilian: { "Палестина" };default { "Unkown" }} ;
     _passportOwner setVariable [QGVAR(eyeColor),_eyeColor,true];
 };
 
