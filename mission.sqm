@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=331;
+		nextID=352;
 	};
 	class Camera
 	{
-		pos[]={1722.1019,13.003983,8974.3486};
-		dir[]={-0.079895467,-0.41088814,-0.90821749};
-		up[]={-0.036012232,0.91165847,-0.40937105};
-		aside[]={-0.99619251,-3.1239324e-007,0.087635249};
+		pos[]={1713.0397,139.74283,9193.8955};
+		dir[]={-0.26194718,-0.49483469,-0.82860941};
+		up[]={-0.14917332,0.86895615,-0.47187525};
+		aside[]={-0.95352829,-2.9605872e-007,0.30143851};
 	};
 };
 binarizationWanted=0;
@@ -423,7 +423,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -478,7 +478,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category2
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -27192,7 +27192,7 @@ class Mission
 					};
 					id=391;
 					type="Land_Map_altis_F";
-					atlOffset=0.96097183;
+					atlOffset=0.9609642;
 				};
 				class Item69
 				{
@@ -28547,7 +28547,6 @@ class Mission
 					};
 					id=386;
 					type="Land_ChairWood_F";
-					atlOffset=7.6293945e-006;
 				};
 				class Item153
 				{
@@ -30221,7 +30220,6 @@ class Mission
 					};
 					id=385;
 					type="cwr3_desk1";
-					atlOffset=7.6293945e-006;
 				};
 				class Item221
 				{
@@ -30237,7 +30235,7 @@ class Mission
 					};
 					id=394;
 					type="cwr3_desklamp";
-					atlOffset=0.95576382;
+					atlOffset=0.95575619;
 				};
 				class Item222
 				{
@@ -32331,7 +32329,6 @@ class Mission
 					};
 					id=377;
 					type="cwr3_noticeboard_noe";
-					atlOffset=7.6293945e-006;
 				};
 				class Item351
 				{
@@ -34578,7 +34575,7 @@ class Mission
 					};
 					id=396;
 					type="cwr3_telephone";
-					atlOffset=0.95921612;
+					atlOffset=0.95920849;
 				};
 				class Item486
 				{
@@ -34834,7 +34831,7 @@ class Mission
 					};
 					id=2044;
 					type="cwr3_metal_cabinet";
-					atlOffset=0.00020742416;
+					atlOffset=0.00029277802;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -35314,7 +35311,7 @@ class Mission
 					};
 					id=2047;
 					type="cwr3_metal_cabinet";
-					atlOffset=0.00076365471;
+					atlOffset=0.00077629089;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -36385,7 +36382,7 @@ class Mission
 					};
 					id=2056;
 					type="cwr3_metal_cabinet";
-					atlOffset=4.3176203;
+					atlOffset=4.3176126;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -42133,6 +42130,7 @@ class Mission
 			class Attributes
 			{
 				text="3 лицо на базе";
+				condition="call{player in thisList}";
 				onActivation="thirdperson_allowed = true;";
 				onDeactivation="thirdperson_allowed = false;";
 				sizeA=172.955;
