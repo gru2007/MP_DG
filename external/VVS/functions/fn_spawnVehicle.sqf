@@ -24,11 +24,7 @@ _positionSpawn = [_pos select 0, _pos select 1, (_pos select 2) + 10000];
 _position = [_pos select 0, _pos select 1, (_pos select 2) + 0.5];
 
 //Get price
-if (_className in Hveh) then {
-	price = 50000;
-} else {
-	price = 300;
-};
+price = [_className] call ZONT_fnc_getPrice;
 
 //Get player side => Money
 if(playerSide==east) then {

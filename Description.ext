@@ -2,6 +2,7 @@
 #include "infiSTAR_AdminMenu.ext"
 #include "skills_framework\skills.ext"
 #include "profiles_framework\roles.ext"
+#include "money_system\prices.ext"
 /**********                       External includes                       **********/
 #include "external\VVS\menu.ext"
 #include "external\grad-passport\grad_passport.hpp"
@@ -35,10 +36,14 @@ class CfgFunctions {
       class removeAllVars { };
       class getConst { };
       class forceExit { };
-      class getSideMoney { };
       class news { };
       class RusPCInit { };
       class thirdperson { };
+    };
+    class Money {
+      file = "money_system";
+      class getPrice { };
+      class getSideMoney { };
     };
     class Database {
       file = "database_framework";

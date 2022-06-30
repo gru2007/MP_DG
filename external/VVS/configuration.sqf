@@ -45,7 +45,11 @@ VVS_Air_Mercenary = [
 
 
 VVS_RF = [
-	"CUP_O_V3S_Open_TKA"
+	"CUP_O_V3S_Open_TKA",
+	"CUP_O_V3S_Rearm_TKM",
+	"CUP_O_V3S_Refuel_TKM",
+	"CUP_O_V3S_Repair_TKM",
+	"O_USSRMotorised_Force_BTR_60_01"
 	];
 VVS_RF_Air = [
 	"B_Heli_Light_01_armed_F",

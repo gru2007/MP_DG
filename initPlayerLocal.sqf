@@ -39,11 +39,6 @@ if (isNil "NATO_Money") then
 }, []] call ZONT_fnc_remoteExecCallback; 
 };
 
-/******                            Vehile Lists                             ******/
-Hveh = [ //1000$
-	"CUP_O_V3S_Open_TKA"
-];
-
 /******                            Ranks                             ******/
 _nameplayer = name player;
 if ((_nameplayer find "МТР" !=-1) || (_nameplayer find "СМТР" !=-1)) then 

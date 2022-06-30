@@ -53,13 +53,9 @@ if(_mode == "Все") then
 		_cfgInfo = [_x] call VVS_fnc_cfgInfo;
 		if(count _cfgInfo > 0) then
 		{
-			if (_x in Hveh) then {
-				price = 50000;
-			} else {
-				price = 300;
-			};
+			_price = [_x] call ZONT_fnc_getPrice;
 			
-			_sideName = format ["%1 оч.", price];
+			_sideName = format ["%1 оч.", _price];
 			_control lnbAddRow["",_cfgInfo select 3,_sideName,_cfgInfo select 4];
 			_control lnbSetPicture[[_row,0],_cfgInfo select 2];
 			_control lnbSetData[[_row,0],_x]; //Set the classname to index/column 0
