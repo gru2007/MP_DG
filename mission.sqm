@@ -42131,8 +42131,8 @@ class Mission
 			{
 				text="3 лицо на базе";
 				condition="call{player in thisList}";
-				onActivation="thirdperson_allowed = true;";
-				onDeactivation="thirdperson_allowed = false;";
+				onActivation="call{thirdperson_allowed = true;}";
+				onDeactivation="call{thirdperson_allowed = false;}";
 				sizeA=172.955;
 				sizeB=92.975998;
 				repeatable=1;
