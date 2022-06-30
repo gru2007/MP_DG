@@ -89,8 +89,8 @@ if(VVS_Checkbox) then
 };
 
 //hint format["Вы заспавнили %1",_displayName];
-if(GameLanguage=="Russian") then {[format["%1 купил %2 за %3$",name player,_displayName,price]] remoteExec ["hint"];} 
-else {[format["%1 bought %2 for %3$",name player,_displayName,price]] remoteExec ["hint"];};
+if(GameLanguage=="Russian") then {[format["%1 купил %2 за %3 оч.",name player,_displayName,price]] remoteExec ["hint"];} 
+else {[format["%1 bought %2 for %3 оч.",name player,_displayName,price]] remoteExec ["hint"];};
 sleep 3;
 _vehicle allowDamage true;
 closeDialog 0;
