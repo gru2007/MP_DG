@@ -1,6 +1,23 @@
 if (!hasInterface) exitWith { };
 removeAllActions player;
 
+removeAllWeapons player;
+removeAllItems player;
+removeAllAssignedItems player;
+removeUniform player;
+removeVest player;
+removeBackpack player;
+removeHeadgear player;
+removeGoggles player;
+
+//основное
+player forceAddUniform "cwr3_o_uniform_m1969_collar";
+
+//всякое
+player linkItem "ItemMap";
+player linkItem "ItemCompass";
+player linkItem "ItemWatch";
+
 if(GameLanguage=="Russian") then {
 private _text = "";
 switch (playerSide) do {

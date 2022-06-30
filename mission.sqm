@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=352;
+		nextID=373;
 	};
 	class Camera
 	{
-		pos[]={1713.0397,139.74283,9193.8955};
-		dir[]={-0.26194718,-0.49483469,-0.82860941};
-		up[]={-0.14917332,0.86895615,-0.47187525};
-		aside[]={-0.95352829,-2.9605872e-007,0.30143851};
+		pos[]={1602.6243,255.66661,9127.9492};
+		dir[]={0.082645029,-0.76881546,-0.63419348};
+		up[]={0.099352017,0.6394285,-0.76240003};
+		aside[]={-0.99167758,-1.2388919e-006,-0.1292313};
 	};
 };
 binarizationWanted=0;
@@ -34865,7 +34865,7 @@ class Mission
 												};
 												class value
 												{
-													items=29;
+													items=28;
 													class Item0
 													{
 														class data
@@ -35256,20 +35256,6 @@ class Mission
 																};
 															};
 															value="CUP_8Rnd_9x18_Makarov_M";
-														};
-													};
-													class Item28
-													{
-														class data
-														{
-															class type
-															{
-																type[]=
-																{
-																	"STRING"
-																};
-															};
-															value="TFAR_anprc152";
 														};
 													};
 												};
@@ -35311,7 +35297,7 @@ class Mission
 					};
 					id=2047;
 					type="cwr3_metal_cabinet";
-					atlOffset=0.00077629089;
+					atlOffset=0.00077652931;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -35345,7 +35331,7 @@ class Mission
 												};
 												class value
 												{
-													items=29;
+													items=28;
 													class Item0
 													{
 														class data
@@ -35736,20 +35722,6 @@ class Mission
 																};
 															};
 															value="CUP_8Rnd_9x18_Makarov_M";
-														};
-													};
-													class Item28
-													{
-														class data
-														{
-															class type
-															{
-																type[]=
-																{
-																	"STRING"
-																};
-															};
-															value="TFAR_anprc152";
 														};
 													};
 												};
