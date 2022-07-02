@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=499;
+		nextID=520;
 	};
 	class Camera
 	{
-		pos[]={1691.236,14.900159,8964.542};
-		dir[]={0.38246948,-0.53421378,0.75387847};
-		up[]={0.24169941,0.84534937,0.47640923};
-		aside[]={0.8917951,0,-0.45243949};
+		pos[]={1685.8893,24.28299,8948.9854};
+		dir[]={0.38246953,-0.53421378,0.75387859};
+		up[]={0.24169944,0.84534937,0.47640932};
+		aside[]={0.89179516,1.4901161e-008,-0.45243955};
 	};
 };
 binarizationWanted=0;
@@ -90,14 +90,13 @@ addons[]=
 	"A3_Characters_F",
 	"cwr3_soldiers_ru",
 	"A3_Weapons_F",
-	"cwr3_flags",
-	"AIM_OPCOM"
+	"cwr3_flags"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=49;
+		items=48;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -388,12 +387,6 @@ class AddonsMetaData
 			name="cwr3_flags";
 			author="CWR III Modification";
 			url="http://cwr3.arma2.fr";
-		};
-		class Item48
-		{
-			className="AIM_OPCOM";
-			name="OPCOM - Operations COmmand";
-			author="ai-mods";
 		};
 	};
 };
@@ -22810,7 +22803,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=9;
+		items=8;
 		class Item0
 		{
 			dataType="Layer";
@@ -42124,40 +42117,6 @@ class Mission
 			};
 			id=431;
 			type="cwr3_Flag_USSR";
-		};
-		class Item8
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={1698.5995,3.3370662,8983.4316};
-				angles[]={6.2786703,0,6.2809215};
-			};
-			id=2595;
-			type="AIM_moduleOPCOM";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="AIM_moduleAIM_Units";
-					expression="_this setVariable ['Units',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="1";
-						};
-					};
-				};
-				nAttributes=1;
-			};
 		};
 	};
 };
