@@ -20,7 +20,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=478;
+		nextID=499;
 	};
 	class Camera
 	{
@@ -42157,27 +42157,6 @@ class Mission
 					};
 				};
 				nAttributes=1;
-			};
-		};
-	};
-	class Connections
-	{
-		class LinkIDProvider
-		{
-			nextID=1;
-		};
-		class Links
-		{
-			items=1;
-			class Item0
-			{
-				linkID=0;
-				item0=2595;
-				item1=2470;
-				class CustomData
-				{
-					type="Sync";
-				};
 			};
 		};
 	};
