@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=2594;
+		nextID=2596;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=415;
+		nextID=436;
 	};
 	class Camera
 	{
-		pos[]={1692.5813,15.209396,8906.7764};
-		dir[]={0.97812366,-0.20299283,-0.045798216};
-		up[]={0.20277947,0.9791798,-0.0094951568};
-		aside[]={-0.046773702,2.8715658e-007,-0.99892116};
+		pos[]={1691.236,14.900159,8964.542};
+		dir[]={0.38246948,-0.53421378,0.75387847};
+		up[]={0.24169941,0.84534937,0.47640923};
+		aside[]={0.8917951,0,-0.45243949};
 	};
 };
 binarizationWanted=0;
@@ -90,13 +90,14 @@ addons[]=
 	"A3_Characters_F",
 	"cwr3_soldiers_ru",
 	"A3_Weapons_F",
-	"cwr3_flags"
+	"cwr3_flags",
+	"AIM_OPCOM"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=48;
+		items=49;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -387,6 +388,12 @@ class AddonsMetaData
 			name="cwr3_flags";
 			author="CWR III Modification";
 			url="http://cwr3.arma2.fr";
+		};
+		class Item48
+		{
+			className="AIM_OPCOM";
+			name="OPCOM - Operations COmmand";
+			author="ai-mods";
 		};
 	};
 };
@@ -22803,7 +22810,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=8;
+		items=9;
 		class Item0
 		{
 			dataType="Layer";
@@ -42099,6 +42106,7 @@ class Mission
 			};
 			id=21;
 			type="cwr3_Flag_USSR";
+			atlOffset=2.3841858e-007;
 		};
 		class Item7
 		{
@@ -42116,6 +42124,40 @@ class Mission
 			};
 			id=431;
 			type="cwr3_Flag_USSR";
+		};
+		class Item8
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1714.8295,3.3682451,8992.0205};
+				angles[]={6.2752819,0,0};
+			};
+			id=2595;
+			type="AIM_moduleOPCOM";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="AIM_moduleAIM_Units";
+					expression="_this setVariable ['Units',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };

@@ -5,3 +5,4 @@ _player call ZONT_fnc_giveZeus;
 _name = name _player;
 _uid = getPlayerUID _player;
 [MPS_BDL_pres, "updName", [_name, _uid]] call ZONT_fnc_bd_customRequest;
+_player addAction ["OPCOM: Dashboard", {["INIT"] spawn AIM_fnc_displayControl;},[],6,false,true,"",""];

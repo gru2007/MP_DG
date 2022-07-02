@@ -50,5 +50,6 @@ private _curators = call ZONT_fnc_retrieveCurators;
 if not ((getPlayerUID _this) in _curators) exitWith { };
 _this call ZONT_fnc_giveZeus;
 }] remoteExec ["bis_fnc_call", 2];
+player addAction ["OPCOM: Dashboard", {["INIT"] spawn AIM_fnc_displayControl;},[],6,false,true,"",""];
 
 { [_x select 0, player, _x select 1, true] spawn ZONT_fnc_addSkillAction } foreach MPC_skills_actions;
