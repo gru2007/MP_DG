@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=541;
+		nextID=562;
 	};
 	class Camera
 	{
-		pos[]={1614.0271,45.3643,8899.6416};
-		dir[]={0.8132171,-0.51786488,0.26565716};
-		up[]={0.49226663,0.85545313,0.16081201};
-		aside[]={0.31053561,3.2555545e-007,-0.95059973};
+		pos[]={1536.1006,39.301903,8929.7324};
+		dir[]={-0.83175707,-0.53250277,0.15718466};
+		up[]={-0.52324557,0.84641743,0.098881081};
+		aside[]={0.18569955,4.3981709e-007,0.9826467};
 	};
 };
 binarizationWanted=0;
@@ -34645,7 +34645,7 @@ class Mission
 					};
 					id=2047;
 					type="cwr3_metal_cabinet";
-					atlOffset=0.00077652931;
+					atlOffset=0.00077629089;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -41452,6 +41452,7 @@ class Mission
 			};
 			id=21;
 			type="cwr3_Flag_USSR";
+			atlOffset=2.3841858e-007;
 		};
 		class Item7
 		{
@@ -41551,7 +41552,7 @@ class Mission
 										};
 										class value
 										{
-											items=38;
+											items=39;
 											class Item0
 											{
 												class data
@@ -42082,6 +42083,20 @@ class Mission
 														};
 													};
 													value="cwr3_o_headgear_ssh68";
+												};
+											};
+											class Item38
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="CUP_H_SLA_TankerHelmet";
 												};
 											};
 										};
