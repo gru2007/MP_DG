@@ -39,6 +39,7 @@ class CfgFunctions {
       class news { };
       class RusPCInit { };
       class thirdperson { };
+      class alert { };
     };
     class Money {
       file = "money_system";
@@ -108,6 +109,12 @@ class Extended_PreInit_EventHandlers {
 
 class CfgSounds {
   sounds[] = {};
+  class Alarm
+  {
+        name = "Тревога";
+        sound[] = {"sounds\alert.ogg", 1, 1, 5000};
+      	titles[] = {};
+  };
   #include "external\tts_beam\cfgSounds.ext"
 };
 
