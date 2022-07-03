@@ -20,7 +20,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=562;
+		nextID=583;
 	};
 	class Camera
 	{
@@ -41518,7 +41518,7 @@ class Mission
 			};
 			id=2042;
 			type="AmmoCrates_NoInteractive_Medium";
-			atlOffset=0.00012302399;
+			atlOffset=0.00012326241;
 			class CustomAttributes
 			{
 				class Attribute0
