@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=2604;
+		nextID=2609;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=583;
+		nextID=604;
 	};
 	class Camera
 	{
-		pos[]={1536.1006,39.301903,8929.7324};
-		dir[]={-0.83175707,-0.53250277,0.15718466};
-		up[]={-0.52324557,0.84641743,0.098881081};
-		aside[]={0.18569955,4.3981709e-007,0.9826467};
+		pos[]={1737.1794,5.0647302,8974.332};
+		dir[]={0.14844242,-0.26379392,0.953125};
+		up[]={0.040597323,0.96457112,0.26066887};
+		aside[]={0.98812586,-5.4184056e-007,-0.15389463};
 	};
 };
 binarizationWanted=0;
@@ -90,13 +90,14 @@ addons[]=
 	"A3_Characters_F",
 	"cwr3_soldiers_ru",
 	"A3_Weapons_F",
-	"cwr3_flags"
+	"cwr3_flags",
+	"A3_Props_F_Orange_Humanitarian_Camps"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=48;
+		items=49;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -388,6 +389,13 @@ class AddonsMetaData
 			author="CWR III Modification";
 			url="http://cwr3.arma2.fr";
 		};
+		class Item48
+		{
+			className="A3_Props_F_Orange";
+			name="Arma 3 Orange - Decorative and Mission Objects";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 dlcs[]=
@@ -398,7 +406,8 @@ dlcs[]=
 	"Heli",
 	"cwr3_dlc",
 	"CUP_Units",
-	"CUP_Vehicles"
+	"CUP_Vehicles",
+	"Orange"
 };
 randomSeed=2287857;
 class ScenarioData
@@ -22803,7 +22812,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=11;
+		items=13;
 		class Item0
 		{
 			dataType="Layer";
@@ -41476,39 +41485,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1485.5299,3.6683183,8930.0439};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				init="[this] call ZONT_fnc_alert;";
-			};
-			id=2602;
-			type="cwr3_buoy";
-		};
-		class Item9
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1735.5139,-0.84955406,8894.3643};
-				angles[]={0.019192915,0,0.018066652};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				init="[this] call ZONT_fnc_alert;";
-			};
-			id=2603;
-			type="cwr3_buoy";
-		};
-		class Item10
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={1501.543,5.0537424,8925.5039};
 			};
 			side="Empty";
@@ -42122,6 +42098,74 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1694.3324,4.9809589,9014.6123};
+				angles[]={6.2594795,2.5514283,6.2764111};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2604;
+			type="Land_KBud";
+			atlOffset=0.00037693977;
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1492.204,10.536259,8934.2891};
+				angles[]={0,3.0549719,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="[this] call ZONT_fnc_alert;";
+			};
+			id=2605;
+			type="Vysilacka";
+			atlOffset=0.96052933;
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1736.031,5.9482632,8897.4521};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="[this] call ZONT_fnc_alert;";
+			};
+			id=2606;
+			type="Vysilacka";
+			atlOffset=0.96000004;
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1738.1249,4.2556477,8976.0791};
+				angles[]={6.2820859,0,0.0010995574};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{this addAction [""Получение мед. помощи"",""call ace_medical_treatment_fnc_fullHeal;"","""",1,true,true,"""",""_this distance _target < 3""];}";
+			};
+			id=2608;
+			type="Land_FirstAidKit_01_open_F";
+			atlOffset=0.00015640259;
 		};
 	};
 };
